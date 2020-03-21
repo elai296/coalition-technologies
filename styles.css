@@ -1,0 +1,25 @@
+#body1{
+    background: url("./images/brown-mountain.png") no-repeat ;
+    background-size: cover;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container1, a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.container1 li{
+    display: inline-block;
+    
+}
+
+.container1 ul{
+    display: flex;
+    justify-content: space-around;
+}
