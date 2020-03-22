@@ -247,3 +247,11 @@ footer nav ul{
 footer {
     bottom: 0;
 }
+
+#mountain1button:hover {
+    cursor: pointer;
+}
+
+#mountain2button:hover {
+    cursor: pointer;
+}
