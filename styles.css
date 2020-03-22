@@ -1,25 +1,200 @@
-#body1{
+body, html{
+    height: 100vh;
+    width:100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+#page1 .container{
     background: url("./images/brown-mountain.png") no-repeat ;
-    background-size: cover;
+    background-size: 200%;
+    background-position: top;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+.laLogo{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.laLogo img{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,0%);
+
+}
+nav{
+    height:75px;
+    margin: auto;
+    /* width: 60%; */
+}
+nav a{
+    text-decoration: none;
+    color: white;
 }
 
-.container1 {
+nav li{
+    display: inline-block;
+    margin-left: 2em;
+}
+#page2 nav{
+    background-color: #61759d;
+}
+#page2 nav li:first-child{
+    margin-right: auto;
+}
+
+nav li:hover{
+    text-decoration: underline;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    width: 60%;
+    height: 100%;
+    align-items:center;
+    margin: 0 auto;
+}
+
+
+#page2 .container{
+    background: url("./images/dark-mountain.png") no-repeat ;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+}
+
+.nav2{
+    background-color: darkblue;
+
+}
+
+.containernav2{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.containernav2{
     display: flex;
     justify-content: center;
 }
 
-.container1, a{
+.containernav2, a{
     text-decoration: none;
     color: white;
 
 }
 
-.container1 li{
+.containernav2 li{
     display: inline-block;
+    margin-left: 2em;
     
 }
 
-.container1 ul{
+.containernav2 li:hover{
+    text-decoration: underline;
+}
+
+
+.containernav2 ul{
+    display: flex;
+   
+    justify-content: flex-end;
+    padding: 0;
+    width: 70vw;
+}
+
+.containernav2 nav{
     display: flex;
     justify-content: space-around;
+}
+
+.nav2{
+    /* width: 100vh; */
+    position: relative;
+}
+#page2 .container{
+    height: 100vh;
+    width:100vw;
+    position: relative;
+}
+
+#mountain1{
+    background: url(./images/faded-mountain.png);
+    height: 100vh;
+    width: 100vw;
+    position: relative
+}
+.title{
+    position: relative;
+}
+.title p{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-weight: 800;
+}
+.title p:first-child{
+    font-size: 10rem;
+    letter-spacing: -1rem;
+    color: #647f94;
+}
+.title p:last-child{
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    left: 10rem;
+    color: #414f6c;
+}
+.info{
+    position: absolute;
+    left: 20%;
+    z-index: 300;
+}
+.info>p{
+    margin: 0;
+}
+#page3 .info>p{
+    width: 50%;
+}
+
+table {
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    box-shadow: 3px grey;
+    border: 1px;
+    background-color: white;
+    padding: 2em;
+}
+
+td {
+    margin-right: 2em;
+}
+
+th {
+    line-height: 1em;
+    font-size: 3em;
+    padding-bottom: 2rem;
+    letter-spacing: -.1rem;
+}
+
+.climbbackground {
+    background-color: #62769e;
+    width: 100vw;
+    height: 20vw;
+}
+
+.info p{
+    display: inline-block;
+}
+
+.info .title {
+    display: inline-block;
+    width: 30%;
 }
