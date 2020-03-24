@@ -15,5 +15,16 @@ $(document).ready(function(){
         $("#mountain1").hide();
     });
     initializeApp();
+
+    new Glider(document.querySelector('.glider'), {
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      draggable: true,
+      dots: '.dots',
+      arrows: {
+        prev: '.glider-prev',
+        next: '.glider-next'
+      }
+    });
 });
 
