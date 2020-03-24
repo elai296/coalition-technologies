@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mountain</title>
+    <link rel="stylesheet"href="./glider.min.css"type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./glider.min.js "></script>
     <script src="./index.js"></script>
 </head>
 <body>
@@ -28,8 +32,8 @@
             <nav class="nav">
                 <ul>
                     <li><img src="./images/logo1.png" alt="one mountain logo" class="logo"></li>
-                    <li><a href="#page2">01.HISTORY</a></li>
-                    <li><a href="#page3">02.TEAM</a></li>
+                    <li><a href="#page2 nav2">01.HISTORY</a></li>
+                    <li><a href="#page3 nav2">02.TEAM</a></li>
                 </ul>
             </nav>
             <div class="info">
@@ -40,8 +44,53 @@
                 <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus at nostrum nulla nesciunt ut beatae adipisci atque fuga molestiae quidem! Magnam praesentium recusandae porro officiis accusantium illum officia consequuntur itaque!</P>
 
             </div>
-        </div>
-        <div class="carousel">
+
+
+
+            <!-- <div class="glider-contain">
+                <div class="glider">
+                  <div><img src="./images/mountain-carousel.png"></div>
+                  <div><img src="./images/one-man-carousel.png"></div>
+                  <div><img src="./images/mountain-carousel.png"></div>
+                  <div><img src="./images/one-man-carousel.png"></div>
+                </div>
+              
+                <button role="button" aria-label="Previous" class="glider-prev">«</button>
+                <button role="button" aria-label="Next" class="glider-next">»</button>
+                <div role="tablist" class="dots"></div>
+              </div> -->
+
+        <section class="carousel">
+
+            <div class="glider-contain multiple">
+                <button class="glider-prev">
+                    <i class="fa fa-chevron-left"></i>
+                </button>
+                <div class="glider">
+                    <figure>
+                        <img src="./images/mountain-carousel.png">
+                        <figcaption>Mountain</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/one-man-carousel.png">
+                        <figcaption>One man</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/mountain-carousel.png">
+                        <figcaption>Mountain</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/one-man-carousel.png">
+                        <figcaption>One man</figcaption>
+                    </figure>
+                </div>
+                <button class="glider-next">
+                    <i class="fa fa-chevron-right"></i>
+                </button>
+                <div id="dots" class="glider-dots"></div>
+            </div>
+
+        </section>
 
         </div>
     </section>
@@ -56,7 +105,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quis modi accusantium alias id architecto qui a natus ut dolorem.</p>
              </div>
         </div>
-        <div class="nav">
+        <div class="nav mountain">
             <ul>
                 <li id="mountain1button">Mountain 1</li>
                 <li id="mountain2button">Mountain 2</li>
@@ -125,7 +174,7 @@
                 <li><img src="./images/logo1.png" alt="one mountain logo" class="logo"></li>
             </ul>
         </nav>
-        <div class="copyright">COPYRIGHT 2020. ALL RIGHTS RESERVED</div>
+        <div class="copyright">COPYRIGHT 2016. ALL RIGHTS RESERVED</div>
     </footer>
 </body>
 </html>

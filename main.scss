@@ -1,0 +1,41 @@
+@import url('https://fonts.goofleapis.com/css?family=Playfair+display');
+
+figure {
+    background: white !important;
+    display: block;
+    margin: 1.5em;
+    padding: .7em;
+
+    blockquote {
+        padding: .5em;
+        font-size: 1.3em;
+        font-style: italic;
+        text-align: center;
+    }
+    figcaption {
+        text-align: center;
+        margin-bottom: 1em;
+        font-size: .9em;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: gray;
+    }
+}
+
+.glider-contain {
+    width: 85% !important;
+    margin-top: 12%;
+    margin-bottom: 5%;
+}
+
+.glider-next {
+    right: -50px;
+    top: 50%;
+}
+
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
