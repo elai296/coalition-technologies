@@ -385,5 +385,10 @@ li .nav2 {
 
   .carousel {
       width: 100vw;
-      height: 25vw;
+      height: 20vw;
+    padding-top: 1rem;
+      padding-bottom: 1.4rem;
+      background-color: rgba(54,69,92,.9);
+      padding: 1.5em;
   }
+
